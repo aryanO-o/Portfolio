@@ -1,0 +1,361 @@
+<!Doctype HTML>
+<html lang="en">
+    <head>
+        <title>
+            Aryan Dadhich
+        </title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="mediaQueries.css"/>
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Aryan Dadhich</div>
+            <div> 
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Expirience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo">Aryan Dadhich</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">                
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#expirience" onclick="toggleMenu()">Expirience</a></li>
+                    <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <section id="profile">
+            <div class="section__pic-container-profile section__pic-container">
+                <img src="./assets/portfolio_pic-main.jpg" alt="Aryan Dadhich">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">
+                    Hello, I'm
+                </p>
+                <h1 class="title">
+                    Aryan Dadhich
+                </h1>
+                <p class="section__text__p2">
+                    Software Developer
+                </p>                
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/Aryan_Dadhich__IIITM.pdf')">Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/aryan-dadhich-014a60189'">
+                    <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/aryanO-o'">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+              <div class="section__pic-container section__pic-container-about">
+                <img
+                  src="./assets/aiGenerated.png"
+                  alt="Profile picture"
+                  class="about-pic"
+                />
+              </div>
+              <div class="about-details-container">
+                <div class="about-containers">
+                  <div class="details-container">
+                    <img
+                      src="./assets/experience.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <h3>Experience</h3>
+                    <p>Android Development <br />Backend Development</p>
+                  </div>
+                  <div class="details-container">
+                    <img
+                      src="./assets/education.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p>B.Tech in CSE from<br />ABV IIITM</p>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <p>
+                    Final Year student Btech CSE at IIITM, Gwalior. My areas of competence include backend and android development, and I have a solid understanding of C++, Python, Kotlin, and XML. I excel at DSA problems and have taken part in a number of coding competitions on LeetCode. I have a constant desire to grow and learn.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <img
+              src="./assets/arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='#experience'"
+            />
+        </section>
+
+        <section id="experience">
+          <p class="section__text__p1">Explore My</p>
+          <h1 class="title">Experience</h1>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <h2 class="experience-sub-title">Backend Development</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>MongoDB</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>PostgreSQL</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Django</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>NodeJS</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>ExpressJS</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="details-container">
+                <h2 class="experience-sub-title">Android Development</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Kotlin</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>XML</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Retrofit and Moshi</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>MVVM</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='#projects'"
+          />
+        </section>
+
+        <section id="projects">
+          <p class="section__text__p1">Browse My Recent</p>
+          <h1 class="title">Projects</h1>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/urjaIcon.jpg"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">URJA 1.0</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/aryanO-o/abv-iiitm-urja-backend'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://drive.google.com/file/d/17-18CkCRLGVsghPulLJiKl-armLBCPhv/view?usp=sharing'"
+                  >
+                    Demo Video
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/emosicIcon.png"
+                    alt="Project 2"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Emosic</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/aryanO-o/EmotionBasedMusicPlayer'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://drive.google.com/file/d/1YrDGGhIDEBN0uxtxVZYOZ8zlNXGT_rk8/view'"
+                  >
+                    Demo Video
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/segmentationToolIcon.jpeg"
+                    alt="Project 3"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Segmantation Tool</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/aryanO-o/segmentationTool'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://drive.google.com/file/d/1atgmuCubzhoqdPEL2g1ruRqTVMrC9uwZ/view?usp=share_link'"
+                  >
+                    Demo Video
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='#contact'"
+          />
+        </section>
+
+        
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:aryanassde@gmail.com">aryanassde@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/aryan-dadhich-014a60189">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p> -->
+    </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
